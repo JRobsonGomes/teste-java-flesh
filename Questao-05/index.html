@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Teste de JAVA</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+        }
+
+        #container {
+            background-color: #191e31;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #content {
+            flex: 1;
+        }
+
+        .item {
+            margin-top: 30px;
+        }
+
+        #combobox {
+            width: 100%;
+            height: 30px;
+            padding: 2px;
+            color: #081e64;
+            border-color: #023cfa;
+            border-radius: 5px;
+        }
+
+        .text {
+            font-size: large;
+            font-weight: 400;
+        }
+
+
+        img {
+            width: 100%;
+        }
+
+        h1{
+            color: azure;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="content">
+            <div class="item">
+                <h1><strong>Teste de JAVA</strong></h1>
+            </div>
+            <div class="item">
+                <a href="https://jrobsongomes.github.io/" target="_new">
+                    <img src="https://infocampos.com.br/breve.gif" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <select class="text" name="valores" id="combobox">
+                    <option value="1">Todos</option>
+                    <option value="2">Pendentes</option>
+                    <option value="3">Cancelados</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
